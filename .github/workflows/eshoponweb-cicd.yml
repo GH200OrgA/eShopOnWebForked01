@@ -54,6 +54,8 @@ jobs:
     needs: buildandtest
     environment:
       name: "Development"
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
     steps:
       #Download the publish files created in previous job
       - name: Download artifact from build job

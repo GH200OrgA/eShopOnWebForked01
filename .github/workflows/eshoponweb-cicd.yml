@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-region1
   LOCATION: canadacentral
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: MOC Subscription-lod52766902
+  SUBSCRIPTION-ID: 'MOC Subscription-lod52766902'
   WEBAPP-NAME: devops-webapp-region1-62779830
 
 jobs:
